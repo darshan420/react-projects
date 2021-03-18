@@ -1,9 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react'
+import Reminder from './BirthdayReminder/Reminder'
 function App() {
   return (
-    <h1>React App </h1>
+    <>
+
+    <Reminder/>
+    </>
   );
 }
 
